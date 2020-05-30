@@ -1,22 +1,22 @@
 {
-  "store_id": 1098,
-  "name": "Mobbeli home",
   "domain": "mobbeli-home.netlify.app",
-  "short_name": "mobbelihome",
-  "description": "mobbelihome",
-  "primary_color": "#333333",
-  "secondary_color": "#7a1213",
-  "bg_color": "#f1f1f1",
+  "currency_symbol": "R$",
+  "primary_color": "#f5bb19",
   "theme": {
     "bootswatch": "_"
   },
+  "bg_color": "#f1f1f1",
   "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "name": "Mobbeli home",
+  "short_name": "mobbelihome",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#ffffff",
+  "icon": "/img/icon.png",
+  "store_id": 1098,
+  "description": "mobbelihome",
+  "large_icon": "/img/large-icon.png"
 }
