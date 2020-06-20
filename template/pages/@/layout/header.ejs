@@ -170,7 +170,7 @@ if (header.categories_list) {
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="fas fa-user"></i>
+            <img src="/img/uploads/user.svg" alt="usuario">
           </a>
           <a
             id="cart-button"
@@ -179,7 +179,7 @@ if (header.categories_list) {
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="fas fa-shopping-bag"></i>
+            <img src="/img/uploads/shopping-cart.svg" alt="carrinho" style="background-size: 100% 100%; width: 50px; height: 50px">
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -202,7 +202,7 @@ if (header.categories_list) {
         const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
         %>
         <div
-          class="d-none d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
+          class="d-none d-lg-block col-12 col-lg collapse show"
           id="search-bar"
         >
           <form
@@ -251,17 +251,17 @@ if (header.categories_list) {
         </div>
       <% } %>
 
-      <% if (categories && categories.length) { %>
-        <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-          <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% categories.forEach(({ slug, name }) => { %>
-              <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-                <%= ` ${name} ` %>
-              </a>
-            <% }) %>
-          </nav>
-        </div>
-      <% } %>
     </div>
   </div>
 </header>
+<% if (categories && categories.length) { %>
+  <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
+    <nav style="padding: 1rem;" class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+      <% categories.forEach(({ slug, name }) => { %>
+        <a style="padding: 7px" href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+          <%= ` ${name} ` %>
+        </a>
+      <% }) %>
+    </nav>
+  </div>
+<% } %>

@@ -1,1 +1,29 @@
 // Add your custom CSS here.
+.top-bar {
+  display: none;
+}
+.product-card__buy button {
+  background: #d69538
+}
+.header__toggler svg {
+  color: #8dc0ca
+}
+#header {
+  background: #fff;
+}
+.products-carousel__title {
+  position: relative;
+  border-bottom: 1px solid #efefef;
+  text-align: start;
+  padding: 0;
+}
+.products-carousel__title a {
+   font-weight: 700;
+   color: #d69538;
+   text-transform: uppercase;
+   border-bottom: 4px solid #d69538;
+   padding-bottom: .2rem;
+}
+.products-carousel__title::before {
+  background: none;
+}

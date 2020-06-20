@@ -6,7 +6,7 @@
     "bootswatch": "united"
   },
   "bg_color": "#f1f1f1",
-  "logo": "/img/uploads/logo-nova.jpg",
+  "logo": "/img/uploads/logo.png",
   "name": "Mobbeli home",
   "short_name": "mobbelihome",
   "lang": "pt_br",
@@ -15,8 +15,8 @@
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
   "secondary_color": "#ffffff",
-  "icon": "/img/icon.png",
+  "icon": "/img/uploads/logo.png",
   "store_id": 1098,
   "description": "mobbelihome",
-  "large_icon": "/img/large-icon.png"
+  "large_icon": "/img/uploads/logo.png"
 }
