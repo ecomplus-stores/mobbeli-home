@@ -255,13 +255,20 @@ if (header.categories_list) {
   </div>
 </header>
 <% if (categories && categories.length) { %>
-  <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
-    <nav style="padding: 1rem;" class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-      <% categories.forEach(({ slug, name }) => { %>
-        <a style="padding: 7px" href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+    <nav style="padding: 1rem; background: #d69538" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %> header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+      <% categories.forEach(({ slug, name, icon }) => { %>
+        <a style="padding: 7px; color: #fff" href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+          <% if (icon) { %>
+            <span class="nav__item-icon" style="display: block">
+              <img
+                src="<%= icon.url %>"
+                alt="<%= icon.alt || name %>"
+                style="width: 50px; background-size: 100% 100%"
+              >
+            </span>
+          <% } %>
           <%= ` ${name} ` %>
         </a>
       <% }) %>
     </nav>
-  </div>
 <% } %>
