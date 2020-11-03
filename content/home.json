@@ -32,14 +32,13 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/esquerdo.png",
-          "alt": "Informações da Mobbeli Home",
-          "link": "/"
+          "img": "/img/uploads/direita.png"
         },
         {
-          "img": "/img/uploads/direita.png",
-          "alt": "Informações da Mobbeli Home",
-          "link": "/"
+          "img": "/img/uploads/direita.png"
+        },
+        {
+          "img": "/img/uploads/direita.png"
         },
         {
           "img": "/img/uploads/direita.png"
@@ -50,13 +49,14 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/direita.png"
+          "img": "/img/uploads/esquerdo.png",
+          "alt": "Informações da Mobbeli Home",
+          "link": "/"
         },
         {
-          "img": "/img/uploads/direita.png"
-        },
-        {
-          "img": "/img/uploads/direita.png"
+          "img": "/img/uploads/direita.png",
+          "alt": "Informações da Mobbeli Home",
+          "link": "/"
         },
         {
           "img": "/img/uploads/direita.png"
