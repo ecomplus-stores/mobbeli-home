@@ -2,7 +2,6 @@
 // load header options and contacts from content
 const header = _.cms('header') || {}
 const contacts = _.cms('contacts') || {}
-
 // social networks handled by contacts
 const networks = [
   'facebook',
@@ -12,7 +11,6 @@ const networks = [
   'pinterest',
   'linkedin'
 ]
-
 // marketing stripe custom styles
 let marketingStripeStyle = ''
 ;['background', 'color'].forEach(prop => {
@@ -20,12 +18,10 @@ let marketingStripeStyle = ''
     marketingStripeStyle += `${prop}:${header.marketing_stripe[prop]};`
   }
 })
-
 // store logo object
 const logo = _.settings.logo
   ? { url: _.settings.logo, alt: _.settings.name }
   : _.store.logo
-
 // list featured categories
 let categories = []
 let isCategoriesNavFull
@@ -182,7 +178,7 @@ if (header.categories_list) {
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <img src="/img/uploads/user.svg" alt="usuario">
+            <i class="fas fa-user"></i>
           </a>
           <a
             id="cart-button"
@@ -191,7 +187,7 @@ if (header.categories_list) {
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <img src="/img/uploads/shopping-cart.svg" alt="carrinho" style="background-size: 100% 100%; width: 50px; height: 50px">
+            <i class="fas fa-shopping-bag"></i>
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -214,7 +210,7 @@ if (header.categories_list) {
         const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
         %>
         <div
-          class="d-none d-lg-block col-12 col-lg collapse show"
+          class="d-none d-lg-block col-12 col-lg<%= searchColSize %> collapse show"
           id="search-bar"
         >
           <form
@@ -245,7 +241,6 @@ if (header.categories_list) {
               -->
             </div>
           </form>
-
           <% if (_.settings.domain) { %>
             <script type="application/ld+json"><%-
               JSON.stringify({
@@ -263,24 +258,17 @@ if (header.categories_list) {
         </div>
       <% } %>
 
+      <% if (categories && categories.length) { %>
+        <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
+          <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+            <% categories.forEach(({ slug, name }) => { %>
+              <a href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
+                <%= ` ${name} ` %>
+              </a>
+            <% }) %>
+          </nav>
+        </div>
+      <% } %>
     </div>
   </div>
 </header>
-<% if (categories && categories.length) { %>
-    <nav style="padding: 1rem; background: #d69538" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %> header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-      <% categories.forEach(({ slug, name, icon }) => { %>
-        <a style="padding: 7px; color: #fff" href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-          <% if (icon) { %>
-            <span class="nav__item-icon" style="display: block">
-              <img
-                src="<%= icon.url %>"
-                alt="<%= icon.alt || name %>"
-                style="width: 50px; background-size: 100% 100%"
-              >
-            </span>
-          <% } %>
-          <%= ` ${name} ` %>
-        </a>
-      <% }) %>
-    </nav>
-<% } %>
