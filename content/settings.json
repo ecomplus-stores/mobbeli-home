@@ -1,9 +1,10 @@
 {
   "domain": "mobbeli-home.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#f5bb19",
+  "primary_color": "#d69538",
   "theme": {
-    "bootswatch": "united"
+    "bootswatch": "_",
+    "custom": "_"
   },
   "bg_color": "#f1f1f1",
   "logo": "/img/uploads/logo.png",
@@ -14,9 +15,9 @@
   "mini_logo": "",
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
-  "secondary_color": "#ffffff",
+  "secondary_color": "#a3a3a3",
   "icon": "/img/uploads/logo.png",
   "store_id": 1098,
-  "description": "mobbelihome",
+  "description": "#646464 #d69538",
   "large_icon": "/img/uploads/logo.png"
 }
