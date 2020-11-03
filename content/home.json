@@ -45,6 +45,23 @@
           "img": "/img/uploads/direita.png"
         }
       ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/direita.png"
+        },
+        {
+          "img": "/img/uploads/direita.png"
+        },
+        {
+          "img": "/img/uploads/direita.png"
+        },
+        {
+          "img": "/img/uploads/direita.png"
+        }
+      ]
     }
   ]
 }
