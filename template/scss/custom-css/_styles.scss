@@ -27,3 +27,28 @@
 .products-carousel__title::before {
   background: none;
 }
+
+.header {
+  @media(min-width: 767px) {
+    &__row {
+      display: flex;
+      flex-direction: row;
+
+      .col-auto.p-0 {
+        order: 1
+      }
+      .col.col-lg-auto.pl-1.pl-md-2.pl-lg-3 {
+        order: 2
+      }
+      .d-none.d-lg-block.col {
+        order: 3
+      }
+      .d-none.d-lg-block.col-12 {
+        order: 4;
+      }
+      .order-lg-last.col-auto.p-0 {
+        order: 5
+      }
+    }
+  }
+}
