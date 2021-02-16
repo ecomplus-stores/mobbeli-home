@@ -5,16 +5,25 @@
   },
   "links_1": {
     "list_pages": true,
-    "title": "Pages",
+    "title": "Ajuda & Suporte",
     "list": []
   },
   "links_2": {
-    "list_categories": true,
-    "title": "Categories",
-    "list": []
+    "list_categories": false,
+    "title": "Institucional",
+    "list": [
+      {
+        "text": "Quem Somos",
+        "url": "/"
+      },
+      {
+        "text": "Contato",
+        "url": "/"
+      }
+    ]
   },
   "contacts": {
-    "title": "Contacts",
+    "title": "Atendimento",
     "phone_wpp": true,
     "socials": true,
     "email": true,
@@ -22,12 +31,12 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection"
+      "src": "/img/uploads/stamp_encryptssl.png",
+      "alt": "Selo de Segurança"
     }
   ],
   "payment_methods": {
-    "bb": true,
+    "bb": false,
     "visa": true,
     "boleto": true,
     "aura": false,
@@ -35,12 +44,12 @@
     "elo": true,
     "hipercard": false,
     "hsbc": false,
-    "bradesco": true,
+    "bradesco": false,
     "santander": false,
     "mastercard": true,
     "citibank": false,
     "mais": false,
-    "itau": true
+    "itau": false
   },
   "credits": "Mobbeli Home - 26.592.578/0001-78 © Todos os direitos reservados. 2020"
 }

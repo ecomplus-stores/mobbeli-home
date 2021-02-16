@@ -16,12 +16,14 @@ const networksWithColors = [
 
 <footer class="footer py-3 py-lg-4 py-xl-5">
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-auto order-lg-last">
+    <div class="row" id="rodape-1">
+      <div class="col-12 col-lg-auto order-lg-first">
         <div class="footer__contacts">
           <% if (footer.contacts.title) { %>
             <div class="footer__title">
-              <%= footer.contacts.title %>
+              <h3>
+                <%= footer.contacts.title %>
+              </h3>
             </div>
           <% } %>
 
@@ -32,6 +34,8 @@ const networksWithColors = [
                   <span class="footer__list-icon">
                     <i class="fab fa-whatsapp"></i>
                   </span>
+                  <span class="footer__span">Whatsapp:</span>
+                  <br>
                   <a
                     href="javascript:;"
                     target="_blank"
@@ -60,6 +64,11 @@ const networksWithColors = [
             <% } %>
             <% if (footer.contacts.email) { %>
               <li>
+                <span class="footer__list-icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="footer__span">E-mail:</span>
+                <br>
                 <a href="mailto:<%= contacts.email %>" target="_blank" rel="noopener">
                   <%= contacts.email %>
                 </a>
@@ -73,39 +82,27 @@ const networksWithColors = [
               </li>
             <% } %>
           </ul>
-
-          <% if (footer.contacts.socials) { %>
-            <p class="footer__social">
-              <% networksWithColors.forEach(([network, color]) => { %>
-                <% if (contacts[network]) { %>
-                  <a
-                    href="<%= contacts[network] %>"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="<%= network %>"
-                    style="color: <%= color %>"
-                  >
-                    <i class="fab fa-<%= network %>"></i>
-                  </a>
-                <% } %>
-              <% }) %>
-            </p>
-          <% } %>
+          <ul class="horario-atendimento list-unstyled">
+            <span class="horario-titulo"><i class="far fa-clock"></i><strong>Horário de Atendimento</strong></span>
+            <li class="texto-horario">
+              <span>seg à sex - 8h00 às 18h00</span>
+            </li>
+            <li class="texto-horario">
+              <span>sab - 8h00 às 14h00</span>
+            </li>
+          </ul>
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg">
-        <a
+        <div
           class="footer__title"
-          data-toggle="collapse"
-          href="#footer-pages"
-          role="button"
-          aria-expanded="false"
-          aria-controls="footer-pages"
         >
+        <h3>
           <%= footer.links_1.title || _.dictionary('pages') %>
-        </a>
-        <div class="collapse" id="footer-pages">
+        </h3>
+        </div>
+        <div id="footer-pages">
           <% if (footer.links_1.list_pages) { %>
             <ul class="footer__links">
               <% (_.cms('pages') || []).forEach(slug => { %>
@@ -134,17 +131,14 @@ const networksWithColors = [
       </div>
 
       <div class="col-12 col-sm-6 col-lg">
-        <a
+        <div
           class="footer__title"
-          data-toggle="collapse"
-          href="#footer-categories"
-          role="button"
-          aria-expanded="false"
-          aria-controls="footer-categories"
         >
-          <%= footer.links_2.title || _.dictionary('categories') %>
-        </a>
-        <div class="collapse" id="footer-categories">
+        <h3>
+          Institucional
+        </h3>
+        </div>
+        <div id="footer-categories">
           <% if (footer.links_2.list_categories) { %>
             <ul class="footer__links">
               <% _.categories.forEach(({ name, slug, parent }) => { %>
@@ -173,13 +167,63 @@ const networksWithColors = [
         </div>
       </div>
 
-      <div class="col-12 col-xl-5 order-lg-first">
-        <a href="/">
-          <img id="logo" class="header__logo" src="/img/uploads/logo.png" alt="Mobbeli home">
-        </a>
-        <p><%- footer.description.text || _.settings.description %></p>
+      <div class="col-12 col-xl-5 order-lg-last">
+        <div class="footer__title">
+          <h3>Redes Sociais</h3>
+        </div>
+        <% if (footer.contacts.socials) { %>
+          <p class="footer__social">
+            <% networksWithColors.forEach(([network, color]) => { %>
+              <% if (contacts[network]) { %>
+                <a
+                  href="<%= contacts[network] %>"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="<%= network %>"
+                  style="color: <%= color %>"
+                >
+                  <i class="fab fa-<%= network %>"></i>
+                </a>
+              <% } %>
+            <% }) %>
+          </p>
+        <% } %>
+        <div class="fb-page" data-href="<%= contacts['facebook'] %>" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="<%= contacts['facebook'] %>"><a href="<%= contacts['facebook'] %>">Mobbeli</a></blockquote></div></div>
+         <div id="fb-root"></div>
+         <script>(function(d, s, id) {
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) return;
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));</script>
+      </div>
+    </div>
 
-        <div class="mt-4 mb-3">
+    <div class="row" id="rodape-2">
+      <div class="col-12 col-lg-auto order-lg-last">
+        <div class="footer__title">
+          <h3>Formas de Envio</h3>
+        </div>
+          <ul class="list-unstyled" style="display: flex">
+            <li style="margin-right: .5rem">
+              <img src="/img/uploads/pac.png" alt="PAC">
+            </li>
+            <li style="margin-left: .5rem">
+              <img src="/img/uploads/sedex.png" alt="SEDEX">
+            </li>
+          </ul>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg">
+        <div
+          class="footer__title"
+        >
+          <h3>
+            Formas de Pagamento
+          </h3>
+        </div>
+        <div id="footer-payment">
           <p class="footer__payment-methods">
             <% Object.keys(footer.payment_methods).forEach(method => { %>
               <% if (footer.payment_methods[method]) { %>
@@ -187,10 +231,29 @@ const networksWithColors = [
               <% } %>
             <% }) %>
           </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg">
+        <div
+          class="footer__title"
+        >
+          Selos de Segurança
+        </div>
+        <div id="footer-selos">
           <div class="footer__stamps">
             <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
           </div>
         </div>
+      </div>
+
+      <div class="col-12 col-lg order-lg-first">
+        <h2 alt="Mobbeli Home">
+          <a href="/">
+            <img id="logo" class="header__logo" src="/img/uploads/logo.png" alt="Mobbeli home">
+          </a>
+        </h2>
+        <p><%- footer.description.text || _.settings.description %></p>
       </div>
     </div>
 

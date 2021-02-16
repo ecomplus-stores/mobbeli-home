@@ -7,41 +7,26 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/slider.png",
+          "img": "/img/uploads/7d6f9e233f7641f635588822882ef8ab.png",
           "link": "/",
-          "alt": "Headset banner",
+          "alt": "Liquidação",
+          "start": "",
+          "end": ""
+        },
+        {
+          "img": "/img/uploads/28c4ea0cc981afc65d3153727660ed95.png",
+          "link": "/",
+          "alt": "Roupa de cama",
           "start": "",
           "end": ""
         }
       ]
     },
     {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true
-    },
-    {
-      "type": "banners-grid",
-      "banners": []
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/direita.png"
-        },
-        {
-          "img": "/img/uploads/direita.png"
-        },
-        {
-          "img": "/img/uploads/direita.png"
-        },
-        {
-          "img": "/img/uploads/direita.png"
+          "img": "/img/uploads/banner-tarja.png"
         }
       ]
     },
@@ -57,11 +42,13 @@
           "img": "/img/uploads/direita.png",
           "alt": "Informações da Mobbeli Home",
           "link": "/"
-        },
-        {
-          "img": "/img/uploads/direita.png"
         }
       ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "collection_id": null
     }
   ]
 }

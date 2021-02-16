@@ -5,11 +5,22 @@
 .product-card__buy button {
   background: #d69538
 }
-.header__toggler svg {
-  color: #8dc0ca
+.header__toggler-icon, #user-button i, #cart-button i {
+  color: #70655e !important;
 }
 #header {
-  background: #fff;
+  background: #ffede6;
+}
+.header__search {
+  i {
+    color: #70655e !important
+  }
+
+  input {
+     background: #ffede6;
+     border-bottom: .01px solid #70655e;
+     border-radius: 0;
+  }
 }
 .products-carousel__title {
   position: relative;
@@ -54,4 +65,48 @@
 }
 .header__nav a {
   font-size: 18px !important;
+  color: #70655e
+}
+@media  screen and (min-width: 1400px) and (max-width: 1510px) {
+  .banner-slider {
+    max-width: 100% !important;
+    --banner-aspect-ratio: 0.421 !important;
+  }
+}
+
+//desktop normal size
+@media  screen and (min-width: 992px) and (max-width: 1400px) {
+  //slider full
+  .banner-slider {
+    max-width: 100% !important;
+  }
+}
+.footer__title {
+  font-size: 18px !important;
+    font-weight: 700;
+    border: none;
+    margin: 20px 0;
+    letter-spacing: 0.50px;
+    color: #d69538;
+    h3 {
+      font-size: 18px !important;
+        font-weight: 700;
+        letter-spacing: 0.50px;
+        color: #d69538;
+    }
+}
+.footer__list-icon {
+  color: #d69538
+}
+.footer__span {
+  color: #916464; font-weight: 700; font-size: 17px
+}
+.horario-atendimento {
+    display: block;
+    border-top: 1px solid #e8e8e8;
+    padding-top: 13px;
+    margin-top: 13px;
+}
+#rodape-2 {
+  margin-top: 1.5rem;
 }
