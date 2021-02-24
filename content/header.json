@@ -4,16 +4,18 @@
     "link": ""
   },
   "contacts_stripe": {
-    "pages": [
-    ],
+    "pages": [],
     "phone_wpp": false,
     "socials": false
   },
   "categories_list": {
     "featured": [
-      "/cama?CAMA"
+      "/cama?CAMA",
+      "/novo?Novo",
+      "/decoracao?Decoração"
     ],
-    "random": 6
+    "random": 6,
+    "full_width": true
   },
   "search_input": true
 }
