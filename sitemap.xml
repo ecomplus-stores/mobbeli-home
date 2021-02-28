@@ -38,6 +38,12 @@
     </url>
   
     <url>
+      <loc>https://mobbeli-home.netlify.app/lencol-elastico-grid-c946-c149-c321</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://mobbeli-home.netlify.app/lencol-elastico</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -182,13 +188,13 @@
     </url>
   
     <url>
-      <loc>https://mobbeli-home.netlify.app/pages/entrega</loc>
+      <loc>https://mobbeli-home.netlify.app/pages/faq</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://mobbeli-home.netlify.app/pages/faq</loc>
+      <loc>https://mobbeli-home.netlify.app/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -212,13 +218,13 @@
     </url>
   
     <url>
-      <loc>https://mobbeli-home.netlify.app/pages/termos</loc>
+      <loc>https://mobbeli-home.netlify.app/pages/trocas</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://mobbeli-home.netlify.app/pages/trocas</loc>
+      <loc>https://mobbeli-home.netlify.app/pages/termos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
