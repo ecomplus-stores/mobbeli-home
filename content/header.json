@@ -10,8 +10,8 @@
   },
   "categories_list": {
     "featured": [
-      "/cama?CAMA",
       "/novo?Novo",
+      "/cama?CAMA",
       "/decoracao?Decoração"
     ],
     "random": 6,
