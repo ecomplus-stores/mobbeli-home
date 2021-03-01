@@ -206,12 +206,6 @@
     </url>
   
     <url>
-      <loc>https://mobbeli-home.netlify.app/kit-almofada-pompom-happy</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
       <loc>https://mobbeli-home.netlify.app/kit-almofada-pompom-happy-c691</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -225,6 +219,18 @@
   
     <url>
       <loc>https://mobbeli-home.netlify.app/kit-almofada-pompom-happy-c361-c495</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://mobbeli-home.netlify.app/kit-almofada-pompom-happy-c361-c495-c681</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://mobbeli-home.netlify.app/kit-almofada-pompom-happy-c361-c495-c681-c105</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
