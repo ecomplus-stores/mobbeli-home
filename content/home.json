@@ -6,17 +6,17 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
-        {
-          "img": "/img/uploads/BANNER-2.png",
+         {
+          "img": "/img/uploads/BANNER-1.png",
           "link": "/",
-          "alt": "Aviso",
+          "alt": "Liquidação",
           "start": "",
           "end": ""
         },
         {
-          "img": "/img/uploads/BANNER-1.png",
+          "img": "/img/uploads/BANNER-2.png",
           "link": "/",
-          "alt": "Liquidação",
+          "alt": "Aviso",
           "start": "",
           "end": ""
         }
