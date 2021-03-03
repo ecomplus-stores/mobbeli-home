@@ -7,7 +7,14 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/banner-6-.png",
+          "img": "/img/uploads/BANNER-2.png",
+          "link": "/",
+          "alt": "Aviso",
+          "start": "",
+          "end": ""
+        },
+        {
+          "img": "/img/uploads/BANNER-1.png",
           "link": "/",
           "alt": "Liquidação",
           "start": "",
