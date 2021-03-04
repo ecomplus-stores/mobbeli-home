@@ -6,9 +6,9 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
-         {
+        {
           "img": "/img/uploads/BANNER-1.png",
-          "link": "/",
+          "link": "/search?term=algodão",
           "alt": "Liquidação",
           "start": "",
           "end": ""
