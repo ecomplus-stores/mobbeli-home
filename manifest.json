@@ -11,19 +11,19 @@
       "type": "image/png"
     },
     {
-      "src": "/icon_192x192.33547a0e0a847e0ba09d3d1d30a2862f.png",
+      "src": "/icon_192x192.8f6ae1f70348860c6ddbaf6e488bd9b0.jpeg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
-      "src": "/icon_128x128.397ec97ab024ba01937a280c48ee4f10.png",
+      "src": "/icon_128x128.3db2e0805333b7c2984f8e7ab3c4acdf.jpeg",
       "sizes": "128x128",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
-      "src": "/icon_96x96.d75d8797054f49c14f6f10e6dc6e05dc.png",
+      "src": "/icon_96x96.5a3d90f6ac347358f219cce2aa6ce3f5.jpeg",
       "sizes": "96x96",
-      "type": "image/png"
+      "type": "image/jpeg"
     }
   ],
   "name": "Mobbeli home",
