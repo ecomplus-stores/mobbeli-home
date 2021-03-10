@@ -710,12 +710,6 @@
     </url>
   
     <url>
-      <loc>https://www.mobbelihome.com/pages/entrega</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
       <loc>https://www.mobbelihome.com/pages/faq</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -729,6 +723,12 @@
   
     <url>
       <loc>https://www.mobbelihome.com/pages/privacidade</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://www.mobbelihome.com/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
