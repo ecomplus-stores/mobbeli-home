@@ -19,7 +19,9 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/banner-tarja.png"
+          "img": "/img/uploads/banner-tarja.png",
+          "mobile_img": "/img/uploads/mobile-tarja.png",
+          "alt": "Informações da loja"
         }
       ]
     },
