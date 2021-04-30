@@ -7,11 +7,9 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/BANNER-1.png",
-          "link": "/search?term=algodão",
-          "alt": "Liquidação",
-          "start": "",
-          "end": ""
+          "start": "2021-04-30T19:30:20.678Z",
+          "end": "2021-04-30T19:30:20.713Z",
+          "img": "/img/uploads/banner-16-.png"
         }
       ]
     },
