@@ -8,13 +8,13 @@
       "slides": [
         {
           "start": "2021-11-19T20:55:23.751Z",
-          "end": "2021-11-19T20:55:23.787Z",
+          "end": "",
           "img": "/img/uploads/banner-23-.png",
           "mobile_img": "/img/uploads/banner-24-.png"
         },
         {
           "start": "2021-11-19T20:57:03.078Z",
-          "end": "2021-11-19T20:57:03.149Z",
+          "end": "",
           "img": "/img/uploads/banner-22-.png",
           "link": "https://www.mobbelihome.com/brinquedos",
           "mobile_img": "https://www.mobbelihome.com/lencol-elastico"
@@ -59,7 +59,8 @@
       "shuffle": true,
       "collection_id": null,
       "page": 1,
-      "limit": 12
+      "limit": 12,
+      "sort": "sales"
     },
     {
       "type": "page-title",
