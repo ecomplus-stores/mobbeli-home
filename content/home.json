@@ -7,24 +7,17 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-04-30T19:30:20.678Z",
-          "end": "",
-          "img": "/img/uploads/banner-16-.png"
+          "start": "2021-11-19T20:55:23.751Z",
+          "end": "2021-11-19T20:55:23.787Z",
+          "img": "/img/uploads/banner-23-.png",
+          "mobile_img": "/img/uploads/banner-24-.png"
         },
         {
-          "start": "2021-04-30T19:36:53.082Z",
-          "end": "",
-          "img": "/img/uploads/banner-17-.png"
-        },
-        {
-          "start": "2021-04-30T19:37:10.813Z",
-          "end": "",
-          "img": "/img/uploads/banner-19-.png"
-        },
-        {
-          "start": "2021-04-30T19:37:23.621Z",
-          "end": "",
-          "img": "/img/uploads/banner-18-.png"
+          "start": "2021-11-19T20:57:03.078Z",
+          "end": "2021-11-19T20:57:03.149Z",
+          "img": "/img/uploads/banner-22-.png",
+          "link": "https://www.mobbelihome.com/brinquedos",
+          "mobile_img": "https://www.mobbelihome.com/lencol-elastico"
         }
       ]
     },
