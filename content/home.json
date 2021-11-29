@@ -9,7 +9,8 @@
         {
           "start": "2021-11-26T17:15:21.979Z",
           "end": "",
-          "img": "/img/uploads/banner-26-.png"
+          "img": "/img/uploads/banner-27-.png",
+          "link": "https://www.mobbelihome.com/torra-torra"
         },
         {
           "start": "2021-11-19T20:55:23.751Z",
@@ -60,12 +61,12 @@
         {
           "img": "/img/uploads/MINI-BANNER-3.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/toys"
+          "link": "/brinquedos"
         },
         {
           "img": "/img/uploads/TAPETES.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/cama"
+          "link": "/tapetes"
         }
       ]
     },
