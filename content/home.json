@@ -7,33 +7,27 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-11-19T20:57:03.078Z",
-          "end": "",
-          "img": "/img/uploads/banner-22-.png",
-          "link": "https://www.mobbelihome.com/brinquedos",
-          "mobile_img": ""
-        },
-        {
           "start": "2022-05-23T14:29:21.324Z",
           "end": "2022-05-23T14:29:21.393Z",
           "img": "/img/uploads/seja-bem-vindo-a-em-nossa-casinha-virtual.png"
         },
         {
-          "start": "2021-11-26T17:15:21.979Z",
-          "end": "",
-          "img": "/img/uploads/banner-27-.png",
-          "link": "https://www.mobbelihome.com/torra-torra"
-        },
-        {
           "start": "2022-05-23T14:29:32.618Z",
           "end": "2022-05-23T14:29:32.683Z",
-          "img": "/img/uploads/seja-bem-vindo-a-em-nossa-casinha-virtual-1-.png"
+          "img": "/img/uploads/seja-bem-vindo-a-em-nossa-casinha-virtual-1-.png",
+          "link": "https://www.mobbelihome.com/cama"
         },
         {
           "start": "2022-05-23T14:48:45.148Z",
           "end": "2022-05-23T14:48:45.258Z",
           "img": "/img/uploads/banner-mobbeli.png",
           "link": "https://www.mobbelihome.com/brinquedos"
+        },
+        {
+          "start": "2021-11-26T17:15:21.979Z",
+          "end": "",
+          "img": "/img/uploads/banner-27-.png",
+          "link": "https://www.mobbelihome.com/torra-torra"
         }
       ],
       "full_width": true
