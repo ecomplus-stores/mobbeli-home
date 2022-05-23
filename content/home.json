@@ -7,18 +7,6 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-11-26T17:15:21.979Z",
-          "end": "",
-          "img": "/img/uploads/banner-27-.png",
-          "link": "https://www.mobbelihome.com/torra-torra"
-        },
-        {
-          "start": "2021-11-19T20:55:23.751Z",
-          "end": "",
-          "img": "/img/uploads/banner-25-.png",
-          "mobile_img": ""
-        },
-        {
           "start": "2021-11-19T20:57:03.078Z",
           "end": "",
           "img": "/img/uploads/banner-22-.png",
@@ -26,11 +14,29 @@
           "mobile_img": ""
         },
         {
-          "start": "2021-11-20T12:23:10.902Z",
+          "start": "2022-05-23T14:29:21.324Z",
+          "end": "2022-05-23T14:29:21.393Z",
+          "img": "/img/uploads/seja-bem-vindo-a-em-nossa-casinha-virtual.png"
+        },
+        {
+          "start": "2021-11-26T17:15:21.979Z",
           "end": "",
-          "img": "/img/uploads/banner-21-.png"
+          "img": "/img/uploads/banner-27-.png",
+          "link": "https://www.mobbelihome.com/torra-torra"
+        },
+        {
+          "start": "2022-05-23T14:29:32.618Z",
+          "end": "2022-05-23T14:29:32.683Z",
+          "img": "/img/uploads/seja-bem-vindo-a-em-nossa-casinha-virtual-1-.png"
+        },
+        {
+          "start": "2022-05-23T14:48:45.148Z",
+          "end": "2022-05-23T14:48:45.258Z",
+          "img": "/img/uploads/banner-mobbeli.png",
+          "link": "https://www.mobbelihome.com/brinquedos"
         }
-      ]
+      ],
+      "full_width": true
     },
     {
       "type": "banners-grid",
