@@ -7,6 +7,12 @@
       "autoplay": 9000,
       "slides": [
         {
+          "start": "2022-05-23T14:48:45.148Z",
+          "end": "2022-11-01T14:48:45.258Z",
+          "img": "/img/uploads/banner-29-.png",
+          "link": ""
+        },
+        {
           "start": "2022-05-23T14:29:21.324Z",
           "end": "2022-08-01T14:29:21.393Z",
           "img": "/img/uploads/seja-bem-vindo-a-em-nossa-casinha-virtual.png"
@@ -16,12 +22,6 @@
           "end": "2022-08-01T14:29:32.683Z",
           "img": "/img/uploads/seja-bem-vindo-a-em-nossa-casinha-virtual-1-.png",
           "link": "https://www.mobbelihome.com/cama"
-        },
-        {
-          "start": "2022-05-23T14:48:45.148Z",
-          "end": "2022-11-01T14:48:45.258Z",
-          "img": "/img/uploads/banner-29-.png",
-          "link": ""
         },
         {
           "start": "2021-11-26T17:15:21.979Z",
