@@ -46,22 +46,26 @@
         {
           "img": "/img/uploads/MINI-BANNER-1.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/toys"
+          "link": "/toys",
+          "mobile_img": "/img/uploads/roupa-de-cama-3-.png"
         },
         {
           "img": "/img/uploads/MINI-BANNER-2.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/cama"
+          "link": "/cama",
+          "mobile_img": "/img/uploads/roupa-de-cama-4-.png"
         },
         {
           "img": "/img/uploads/MINI-BANNER-3.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/brinquedos"
+          "link": "/brinquedos",
+          "mobile_img": "/img/uploads/roupa-de-cama-5-.png"
         },
         {
           "img": "/img/uploads/TAPETES.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/tapetes"
+          "link": "/tapetes",
+          "mobile_img": "/img/uploads/roupa-de-cama-2-.png"
         }
       ]
     },
