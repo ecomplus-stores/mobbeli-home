@@ -7,15 +7,10 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2022-11-25T13:19:33.102Z",
-          "end": "2022-11-30T03:00:00.000Z",
-          "img": "/img/uploads/banner-3-.png"
-        },
-        {
-          "start": "2022-05-23T14:48:45.148Z",
-          "end": "2022-11-30T14:48:45.258Z",
-          "img": "/img/uploads/banner-29-.png",
-          "link": ""
+          "start": "2021-11-26T17:15:21.979Z",
+          "end": "",
+          "img": "/img/uploads/banner-27-.png",
+          "link": "https://www.mobbelihome.com/torra-torra"
         },
         {
           "start": "2022-05-23T14:29:21.324Z",
@@ -27,12 +22,6 @@
           "end": "2023-01-31T13:19:02.258Z",
           "img": "/img/uploads/banner-mobbeli-4-.png",
           "link": "https://www.mobbelihome.com/cama"
-        },
-        {
-          "start": "2021-11-26T17:15:21.979Z",
-          "end": "",
-          "img": "/img/uploads/banner-27-.png",
-          "link": "https://www.mobbelihome.com/torra-torra"
         }
       ],
       "full_width": true
