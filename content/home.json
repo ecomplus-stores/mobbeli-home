@@ -40,25 +40,25 @@
         {
           "img": "/img/uploads/MINI-BANNER-1.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/toys",
+          "link": "",
           "mobile_img": ""
         },
         {
           "img": "/img/uploads/MINI-BANNER-2.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/cama",
+          "link": "",
           "mobile_img": ""
         },
         {
           "img": "/img/uploads/MINI-BANNER-3.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/brinquedos",
+          "link": "",
           "mobile_img": ""
         },
         {
           "img": "/img/uploads/TAPETES.jpg",
           "alt": "Informações da Mobbeli Home",
-          "link": "/tapetes",
+          "link": "",
           "mobile_img": ""
         }
       ]
